@@ -6,7 +6,7 @@ What this project contains:
 Business Functionality:
 1. Controller for Customer related CRUD functions + check balance for a particular Account Type of a given Customer + make deposit or withdrawal to a particular Account Type of a given Customer + transfer balance between two account types of a given Customer
 2. Controller for Account related CRUD functions + perform transfer between accounts of two different customers
-3. For simplicity kept List<Accounts> outside of Customer constructor, even though the relationship is of Aggregation
+3. For simplicity kept List of Accounts outside of Customer constructor, even though the relationship is of Aggregation
 
 Technical Specifications:
 1. Spring Boot Project using Spring Boot starter Security (use basic authentication mechanism on Postman), user = 'user' password can't be copied from logs written during Startup.
